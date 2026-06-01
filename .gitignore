@@ -1,3 +1,10 @@
+/.venv/
+/.venv
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.vscode/
 # OS
 .DS_Store
 
