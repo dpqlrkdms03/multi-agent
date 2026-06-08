@@ -1,25 +1,28 @@
-/.venv/
-/.venv
+# Virtual environment
+.venv/
+venv/
+
+# Python cache
 __pycache__/
 *.pyc
 *.pyo
 .pytest_cache/
-.vscode/
-# OS
-.DS_Store
 
-# Python
-__pycache__/
-*.pyc
-
-# Environment
+# Environment variables
 .env
-.venv/
 
 # IDE
 .vscode/
 
-# Build artifacts (md → html/pdf 변환 결과)
+# OS
+.DS_Store
+Thumbs.db
+
+# Streamlit / local data
+.streamlit/secrets.toml
+data/user_logs.csv
+
+# Build artifacts
 docs/build/
 docs/diagram/.node/
 docs/week-*.html
@@ -39,4 +42,3 @@ copilot.md
 checklists/
 schema/
 CLAUDE.md
-README.md
